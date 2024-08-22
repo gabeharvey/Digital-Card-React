@@ -63,7 +63,7 @@ const MainContent = () => {
               alt="Profile Image"
               mb={2}
             />
-            <Text className='card-name' fontSize="3xl" fontWeight="bold" color="beige" fontFamily="'Bungee Spice', cursive">
+            <Text className='card-name' fontSize="3xl" fontWeight="bold" color="beige" fontFamily="'Nabla', cursive">
               Gabe Harvey
             </Text>
             <Text fontSize="lg" color="beige" mb={4} fontFamily="'Marmelad', cursive">
@@ -103,7 +103,7 @@ const MainContent = () => {
             textAlign: 'center',
             color: 'beige',
             fontSize: '2.3rem',
-            fontFamily: "'Bungee Spice', cursive",
+            fontFamily: "'Nabla', cursive",
             boxShadow: "gray 10px 10px 10px"
           }}
         >
