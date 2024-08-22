@@ -59,7 +59,7 @@ const MainContent = () => {
             <Image
               borderRadius="md"
               boxSize="150px"
-              src="../src/assets/gabe-photo.jpg"
+              src="../src/assets/gabe-photo-alt.png"
               alt="Profile Image"
               mb={2}
             />
