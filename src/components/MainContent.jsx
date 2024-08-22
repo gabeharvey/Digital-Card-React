@@ -38,6 +38,7 @@ const MainContent = () => {
           position: 'relative',
           borderRadius: '10px',
           transition: 'box-shadow 0.3s',
+          marginTop: "10px"
         }}
       >
         {/* Front Side of Business Card */}
