@@ -122,7 +122,10 @@ const MainContent = () => {
                     0px 15px 25px rgba(255, 255, 255, 0.5)`,
           }}
         >
-          <Text>Gabe Harvey</Text>
+          <Flex direction="column" align="center" justify="center" height="100%">
+            <Text>Gabe Harvey</Text>
+            <Text fontSize={16} fontFamily="'Marmelad', cursive" color='beige' textShadow='none' marginTop={10}>©2024 All Rights Reserved</Text>
+          </Flex>
         </animated.div>
       </animated.div>
     </Flex>
