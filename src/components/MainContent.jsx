@@ -47,7 +47,7 @@ const MainContent = () => {
             position: 'absolute',
             width: '100%',
             height: '100%',
-            backgroundColor: 'black',
+            backgroundColor: '#2a2a2a',
             borderRadius: '10px',
             border: '2px solid white',
             padding: '16px',
@@ -62,7 +62,7 @@ const MainContent = () => {
               alt="Profile Image"
               mb={2}
             />
-            <Text fontSize="3xl" fontWeight="bold" color="beige" fontFamily="'Honk', cursive">
+            <Text fontSize="3xl" fontWeight="bold" color="beige" fontFamily="'Bungee Spice', cursive">
               Gabe Harvey
             </Text>
             <Text fontSize="lg" color="beige" mb={4} fontFamily="'Marmelad', cursive">
@@ -93,7 +93,7 @@ const MainContent = () => {
             width: '100%',
             height: '100%',
             transform: 'rotateY(180deg)',
-            backgroundColor: 'black',
+            backgroundColor: '#2a2a2a',
             borderRadius: '10px',
             border: '2px solid white',
             display: 'flex',
@@ -101,8 +101,8 @@ const MainContent = () => {
             justifyContent: 'center',
             textAlign: 'center',
             color: 'beige',
-            fontSize: 'xl',
-            fontFamily: "'Honk', cursive",
+            fontSize: '2.3rem',
+            fontFamily: "'Bungee Spice', cursive",
             boxShadow: "gray 10px 10px 10px"
           }}
         >
