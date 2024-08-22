@@ -50,7 +50,7 @@ const MainContent = () => {
             height: '100%',
             backgroundColor: '#2a2a2a',
             borderRadius: '10px',
-            border: '3px solid beige',
+            border: '3px solid orange',
             padding: '16px',
             boxShadow: "gray 10px 10px 10px"
           }}
@@ -63,7 +63,14 @@ const MainContent = () => {
               alt="Profile Image"
               mb={2}
             />
-            <Text className='card-name' fontSize="3xl" fontWeight="bold" color="beige" fontFamily="'Nabla', cursive">
+            <Text className='card-name' fontSize="3xl" fontWeight="bold" color="orange" fontFamily="'Rock Salt', cursive" marginBottom= '15px' sx={{
+                textShadow: `
+                    0px 3px 5px rgba(255, 69, 0, 0.9),
+                    0px 6px 10px rgba(255, 140, 0, 0.8),
+                    0px 9px 15px rgba(255, 165, 0, 0.7),
+                    0px 12px 20px rgba(255, 215, 0, 0.6),
+                    0px 15px 25px rgba(255, 255, 0, 0.5)`,
+            }}>
               Gabe Harvey
             </Text>
             <Text fontSize="lg" color="beige" mb={4} fontFamily="'Marmelad', cursive">
@@ -96,15 +103,22 @@ const MainContent = () => {
             transform: 'rotateY(180deg)',
             backgroundColor: '#2a2a2a',
             borderRadius: '10px',
-            border: '3px solid beige',
+            border: '3px solid orange',
             display: 'flex',
             alignItems: 'center',
             justifyContent: 'center',
             textAlign: 'center',
-            color: 'beige',
-            fontSize: '2.3rem',
-            fontFamily: "'Nabla', cursive",
-            boxShadow: "gray 10px 10px 10px"
+            color: 'orange',
+            fontSize: '2.1rem',
+            fontFamily: "'Rock Salt', cursive",
+            boxShadow: "gray 10px 10px 10px",
+            marginBottom: '5px',
+            textShadow: `
+                    0px 3px 5px rgba(255, 69, 0, 0.9),
+                    0px 6px 10px rgba(255, 140, 0, 0.8),
+                    0px 9px 15px rgba(255, 165, 0, 0.7),
+                    0px 12px 20px rgba(255, 215, 0, 0.6),
+                    0px 15px 25px rgba(255, 255, 0, 0.5)`,
           }}
         >
           <Text>Gabe Harvey</Text>
