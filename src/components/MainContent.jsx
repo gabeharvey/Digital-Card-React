@@ -51,7 +51,7 @@ const MainContent = () => {
             borderRadius: '10px',
             border: '2px solid white',
             padding: '16px',
-            boxShadow: "gray 5px 5px 5px"
+            boxShadow: "gray 10px 10px 10px"
           }}
         >
           <Flex direction="column" align="center" justify="center" height="100%">
@@ -103,7 +103,7 @@ const MainContent = () => {
             color: 'beige',
             fontSize: 'xl',
             fontFamily: "'Honk', cursive",
-            boxShadow: "gray 5px 5px 5px"
+            boxShadow: "gray 10px 10px 10px"
           }}
         >
           <Text>Gabe Harvey</Text>
