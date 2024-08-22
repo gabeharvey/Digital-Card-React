@@ -45,14 +45,16 @@ const MainContent = () => {
         <animated.div
           style={{
             backfaceVisibility: 'hidden',
-            position: 'absolute',
-            width: '100%',
-            height: '100%',
-            backgroundColor: '#2a2a2a',
-            borderRadius: '10px',
-            border: '3px solid #1A0033',
-            padding: '16px',
-            boxShadow: "gray 10px 10px 10px"
+    position: 'absolute',
+    width: '100%',
+    height: '100%',
+    backgroundImage: 'url("/tech-photo.jpg")', // Replace with the actual path to your image
+    backgroundSize: 'cover', // Ensures the image covers the entire area
+    backgroundPosition: 'center', // Centers the image within the div
+    borderRadius: '10px',
+    border: '3px solid #1A0033',
+    padding: '16px',
+    boxShadow: "gray 10px 10px 10px",
           }}
         >
           <Flex direction="column" align="center" justify="center" height="100%">
@@ -63,7 +65,7 @@ const MainContent = () => {
               alt="Profile Image"
               mb={2}
             />
-            <Text className='card-name' fontSize="3xl" fontWeight="bold" color="#1A0033" fontFamily="'Orbitron', cursive" marginBottom= '15px' sx={{
+            <Text className='card-name' fontSize="3xl" fontWeight="bold" color="white" fontFamily="'Orbitron', cursive" marginBottom= '15px' sx={{
                 textShadow: `
                     0px 3px 5px rgba(72, 61, 139, 0.9),
                     0px 6px 10px rgba(123, 104, 238, 0.8),
@@ -101,6 +103,9 @@ const MainContent = () => {
             width: '100%',
             height: '100%',
             transform: 'rotateY(180deg)',
+    backgroundImage: 'url("/tech-photo.jpg")', // Replace with the actual path to your image
+    backgroundSize: 'cover', // Ensures the image covers the entire area
+    backgroundPosition: 'center', // Centers the image within the div
             backgroundColor: '#2a2a2a',
             borderRadius: '10px',
             border: '3px solid #1A0033',
@@ -108,7 +113,7 @@ const MainContent = () => {
             alignItems: 'center',
             justifyContent: 'center',
             textAlign: 'center',
-            color: '#1A0033',
+            color: 'white',
             fontSize: '2.1rem',
             fontFamily: "'Orbitron', cursive",
             fontWeight: 'bold',
