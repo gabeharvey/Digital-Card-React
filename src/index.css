@@ -1,4 +1,15 @@
+@import url('https://fonts.googleapis.com/css2?family=Bungee+Spice&family=Marmelad&display=swap');
+
 :root {
   background-color: white;
 }
 
+/* @font-face {
+  font-family: 'Bungee Spice';
+  src: url('https://fonts.googleapis.com/css2?family=Bungee+Spice&display=swap');
+  font-display: swap;
+} */
+
+.card-name {
+  font-family: 'Bungee Spice', cursive;
+}

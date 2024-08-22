@@ -63,7 +63,7 @@ const MainContent = () => {
               alt="Profile Image"
               mb={2}
             />
-            <Text fontSize="3xl" fontWeight="bold" color="beige" fontFamily="'Bungee Spice', cursive">
+            <Text className='card-name' fontSize="3xl" fontWeight="bold" color="beige" fontFamily="'Bungee Spice', cursive">
               Gabe Harvey
             </Text>
             <Text fontSize="lg" color="beige" mb={4} fontFamily="'Marmelad', cursive">
