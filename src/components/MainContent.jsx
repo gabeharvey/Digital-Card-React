@@ -49,7 +49,7 @@ const MainContent = () => {
             height: '100%',
             backgroundColor: '#2a2a2a',
             borderRadius: '10px',
-            border: '2px solid white',
+            border: '3px solid white',
             padding: '16px',
             boxShadow: "gray 10px 10px 10px"
           }}
@@ -95,7 +95,7 @@ const MainContent = () => {
             transform: 'rotateY(180deg)',
             backgroundColor: '#2a2a2a',
             borderRadius: '10px',
-            border: '2px solid white',
+            border: '3px solid white',
             display: 'flex',
             alignItems: 'center',
             justifyContent: 'center',
