@@ -52,7 +52,7 @@ const MainContent = () => {
             backgroundSize: 'cover',
             backgroundPosition: 'center',
             borderRadius: '10px',
-            border: '3px solid #1A0033',
+            border: '3px solid #191970',
             padding: '16px',
             boxShadow: "gray 10px 10px 10px",
           }}
@@ -67,11 +67,11 @@ const MainContent = () => {
             />
             <Text className='card-name' fontSize="3xl" fontWeight="bold" color="white" fontFamily="'Orbitron', cursive" marginBottom= '15px' sx={{
                 textShadow: `
-                    0px 3px 5px rgba(72, 61, 139, 0.9),
-                    0px 6px 10px rgba(123, 104, 238, 0.8),
-                    0px 9px 15px rgba(147, 112, 219, 0.7),
-                    0px 12px 20px rgba(186, 85, 211, 0.6),
-                    0px 15px 25px rgba(255, 255, 255, 0.5)`,
+                    0px 3px 5px rgba(25, 25, 112, 0.9),
+                    0px 6px 10px rgba(65, 105, 225, 0.8),
+                    0px 9px 15px rgba(70, 130, 180, 0.7),
+                    0px 12px 20px rgba(100, 149, 237, 0.6),
+                    0px 15px 25px rgba(135, 206, 250, 0.5)`,
             }}>
               Gabe Harvey
             </Text>
@@ -108,7 +108,7 @@ const MainContent = () => {
             backgroundPosition: 'center',
             backgroundColor: '#2a2a2a',
             borderRadius: '10px',
-            border: '3px solid #1A0033',
+            border: '3px solid #191970',
             display: 'flex',
             alignItems: 'center',
             justifyContent: 'center',
@@ -120,11 +120,11 @@ const MainContent = () => {
             boxShadow: "gray 10px 10px 10px",
             marginBottom: '5px',
             textShadow: `
-                    0px 3px 5px rgba(72, 61, 139, 0.9),
-                    0px 6px 10px rgba(123, 104, 238, 0.8),
-                    0px 9px 15px rgba(147, 112, 219, 0.7),
-                    0px 12px 20px rgba(186, 85, 211, 0.6),
-                    0px 15px 25px rgba(255, 255, 255, 0.5)`,
+                    0px 3px 5px rgba(25, 25, 112, 0.9),
+                    0px 6px 10px rgba(65, 105, 225, 0.8),
+                    0px 9px 15px rgba(70, 130, 180, 0.7),
+                    0px 12px 20px rgba(100, 149, 237, 0.6),
+                    0px 15px 25px rgba(135, 206, 250, 0.5)`,
           }}
         >
           <Flex direction="column" align="center" justify="center" height="100%">
