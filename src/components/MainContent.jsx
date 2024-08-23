@@ -45,16 +45,16 @@ const MainContent = () => {
         <animated.div
           style={{
             backfaceVisibility: 'hidden',
-    position: 'absolute',
-    width: '100%',
-    height: '100%',
-    backgroundImage: 'url("/tech-photo.jpg")', // Replace with the actual path to your image
-    backgroundSize: 'cover', // Ensures the image covers the entire area
-    backgroundPosition: 'center', // Centers the image within the div
-    borderRadius: '10px',
-    border: '3px solid #1A0033',
-    padding: '16px',
-    boxShadow: "gray 10px 10px 10px",
+            position: 'absolute',
+            width: '100%',
+            height: '100%',
+            backgroundImage: 'url("/tech-photo.jpg")',
+            backgroundSize: 'cover',
+            backgroundPosition: 'center',
+            borderRadius: '10px',
+            border: '3px solid #1A0033',
+            padding: '16px',
+            boxShadow: "gray 10px 10px 10px",
           }}
         >
           <Flex direction="column" align="center" justify="center" height="100%">
@@ -103,9 +103,9 @@ const MainContent = () => {
             width: '100%',
             height: '100%',
             transform: 'rotateY(180deg)',
-    backgroundImage: 'url("/tech-photo.jpg")', // Replace with the actual path to your image
-    backgroundSize: 'cover', // Ensures the image covers the entire area
-    backgroundPosition: 'center', // Centers the image within the div
+            backgroundImage: 'url("/tech-photo.jpg")',
+            backgroundSize: 'cover',
+            backgroundPosition: 'center',
             backgroundColor: '#2a2a2a',
             borderRadius: '10px',
             border: '3px solid #1A0033',
