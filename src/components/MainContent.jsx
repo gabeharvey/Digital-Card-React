@@ -118,7 +118,7 @@ const MainContent = () => {
             fontFamily: "'Orbitron', cursive",
             fontWeight: 'bold',
             boxShadow: "gray 10px 10px 10px",
-            marginBottom: '4px',
+            marginBottom: '5px',
             textShadow: `
                     0px 3px 5px rgba(25, 25, 112, 0.9),
                     0px 6px 10px rgba(65, 105, 225, 0.8),
