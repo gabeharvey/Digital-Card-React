@@ -129,7 +129,7 @@ const MainContent = () => {
         >
           <Flex direction="column" align="center" justify="center" height="100%">
             <Text>Gabe Harvey</Text>
-            <Text fontSize={16} fontFamily="'Marmelad', cursive" color='beige' textShadow='none' marginTop={10}>©2024 All Rights Reserved</Text>
+            <Text fontSize={16} fontFamily="'Marmelad', cursive" color='beige' textShadow='none' marginTop={9}>©2024 All Rights Reserved</Text>
           </Flex>
         </animated.div>
       </animated.div>
